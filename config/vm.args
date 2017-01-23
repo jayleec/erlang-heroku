@@ -1,0 +1,7 @@
+-env ERL_LIBS _build/default/lib
+-noshell
+-noinput
+-sname node3
+-eval 'application:ensure_all_started(erl_heroku).'
+
+

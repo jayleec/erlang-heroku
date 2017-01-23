@@ -1,0 +1,1 @@
+web: erl -args_file config/vm.args

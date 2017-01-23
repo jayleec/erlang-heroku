@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author jay
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 19. Jan 2017 9:01 PM
+%%%-------------------------------------------------------------------
+{application, erl_heroku, [
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {erl_heroku_app, []}},
+    {env, [{http_port, 8080}]}
+]}.
